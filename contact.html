@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact Us</title>
+	<title>Contact | WAY.university</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
 	<!-- font Awesome CDN link -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
 	<!-- External CSS -->
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="about.css">
+	<link rel="stylesheet" href="admit.css">
 	<link rel="stylesheet" href="course-inner.css">
 	<link rel="stylesheet" href="contact.css">
 
@@ -20,16 +23,17 @@
 <body>
 	<!-- Navigation start -->
 	<nav>
-		<img src="img/logo.svg" class="logo" alt="">
+		<a href="index.html"><img src="img/logo.jpg" class="logo" alt="University logo"></a>
 
 		<div class="navigation">
 			<ul>
 				<i id="menu-close" class="fas fa-times"></i>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="courses.html">Courses</a></li>
-				<li><a href="contact.html" class="active">Contact</a></li>
+				<li><a href="admissions.html">Admissions</a></li>
+				<li><a href="academics.html">Academics</a></li>
+				<li><a href="portal.html">Portal</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="about.html">About</a></li>
 			</ul>
 
 			<img src="img/menu.png" id="menu-btn" alt="">
@@ -41,7 +45,7 @@
 	<!-- Hero section starts from here -->
 	<section id="about-home">
 		<h2>
-			Contact Us/
+			Contact.
 		</h2>
 	</section>
 	<!-- Hero section ends from here -->
@@ -50,100 +54,136 @@
 	<section id="contact">
 		<div class="getin">
 			<h2>Get in touch</h2>
-			<p>Looking for help? Fill the form and start a new adventure.</p>
+			<p>Looking for help? We might have an answer.</p>
 
-			<div class="getin-details">
+			<!-- <div class="getin-details">
 				<h3>Headquaters</h3>
 				<div>
 					<i class="fa-solid fa-map get"></i>
 					<p>744 New York Ave, Brooklyn, kings, New York 10224</p>
-				</div>
+				</div> -->
 
 				<h3>Phone</h3>
 				<div>
 					<i class="fas fa-phone-alt get"></i>
-					<p>(+91) 98671 23456 <br> (+91) 98671 23456</p>
+					<p>(+1) 72O 799 O225<br> 
 				</div>
 
 				<h3>Support</h3>
 				<div>
 					<i class="fa-solid fa-envelope get"></i>
-					<p>tech@educa.com <br> info@educa.com </p>
+					<p>contact@way.university <br> help@way.university </p>
 				</div>
 
 				<h3>Follow Us</h3>
 				<div class="pro-links">
-					<i class="fab fa-facebook"></i>
-					<i class="fab fa-instagram"></i>
-					<i class="fab fa-linkedin-in"></i>
-					<i class="fab fa-behance"></i>
+
+					<!-- Facebook group -->
+					<a href="https://www.facebook.com/groups/way.university" target="_blank">
+						<i class="fab fa-facebook"></i>
+					</a>
+	
+					<!-- Instagram group -->
+					<a href="https://www.instagram.com/way.university/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+	
+					<!-- Linkedin group -->
+					<a href="https://www.linkedin.com/groups/12887682/" target="_blank">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+	
+					<!-- Telegram group -->
+					<a href="https://t.me/+vxV1Q12fmUYzNDIx" target="_blank">
+						<i class="fab fa-telegram"></i>
+					</a>
+
+					<!-- X (Former twitter) group -->
+					<a href="https://x.com/myWayUniversity" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
 				</div>
 			</div>
 		</div>
 
 		<div class="form">
-			<h4>Let's Connect</h4>
-			<p>Lorem ipsum, dolor sit amet consectetur.</p>
-			<div class="form-row">
-				<input type="text" placeholder="Your Name">
-				<input type="email" placeholder="Your Email">
-			</div>
-			<div class="form-col">
-				<input type="text" placeholder="Subject line...">
-			</div>
-			<div class="form-col">
-				<textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
-			</div>
+			<h4>Fill out the Form</h4>
+				<p></p>
+					<form action="mailto:contact@way.university" method="post" enctype="text/plain" id="">
+						<div class="form-row">
+							<input name="contact@way.university" type="hidden" class="text" name="contact@way.university">
+							<input type="text" placeholder="First Name" name="First Name" id="first-name" required>
+							<input type="text" placeholder="Last Name" name="Last Name" id="last-name" required>
+						</div>
+						<div class="form-col">
+							<input type="text" placeholder="Your Organization" name="Organization" id="Organization">
+						</div>
+						<div class="form-col">
+							<input type="text" placeholder="Address" name="Address" id="Address">
+						</div>
+							<div class="form-col">
+							<input type="email" placeholder="Your Email" name="email" id="email" required>
+						</div>
+							<div class="form-col">
+							<input type="tel" id="phone" placeholder="Phone number" name="Contact number" id="phone-number" required>
+						</div>
+							<div class="form-col">
+							<input type="text" placeholder="Subject" name="Subject" id="subject">
+						</div>
+						<div class="form-col">
+							<textarea name="text" rows="5" cols="40" placeholder="How can we help?" id="text-field"></textarea>
+						</div>
 
-			<div class="form-col">
-				<button>Send Message</button>
-			</div>
+						<div class="form-col">
+						<button>Send Message</button>
+						</div>
+					</form>
 		</div>
 	</section>
 
 
-	<section id="map">
+	<!-- <section id="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711686.029386617!2d64.41853642919325!3d20.009139591170264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1652012148253!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	</section>
+	</section> -->
 
 
 	<!-- Footer section starts from here -->
 	<footer>
 		<div class="footer-col">
-			<h3>Top Products</h3>
-			<li>Manage Reputation</li>
-			<li>Power Tools</li>
-			<li>Managed Website</li>
-			<li>Marketing Service</li>
+			<h3>Services</h3>
+			<a style="text-decoration:none" href="https://lms.way.university" target="_blank"><li>Moodle LMS</li></a>
+			<li>Koha</li>
 		</div>
 
 		<div class="footer-col">
-			<h3>Power Tools</h3>
-			<li>Jobs</li>
-			<li>Marketing Service</li>
-			<li>Top Products</li>
-			<li>Manage Reputation</li>
+			<h3>Community</h3>
+			<a style="text-decoration:none" href="jobs.html" target="_blank"><li>Jobs</li></a>
+			<li>Volunteer</li>
+			<li>Sponsors</li>
 		</div>
 
 		<div class="footer-col">
-			<h3>Power Tools</h3>
-			<li>Managed Website</li>
-			<li>Manage Reputation</li>
-			<li>Top Products</li>
-			<li>Marketing Service</li>
+			<h3>Feedback</h3>
+			<a style="text-decoration:none" href="contact.html" target="_blank"><li>Contact</li></a>
+			<li>Social media</li>
 		</div>
 
 		<div class="footer-col">
-			<h3>Guides</h3>
-			<li>Research</li>
-			<li>Experts</li>
-			<li>Managed Website</li>
-			<li>Marketing Service</li>
+			<h3>Help</h3>
+			<li>IT Helpdesk</li>
+			<li>Tutorials</li>
+			<li>Directory</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Legal</h3>
+			<a style="text-decoration:none" href="WAY_honor_code_2023-2024.pdf" target="_blank"><li>Honor Code</li></a>
+			<a style="text-decoration:none" href="oeix_2023-2024.pdf" target="_blank"><li>OE & Title IX</li></a>
 		</div>
 
 		<div class="footer-col">
 			<h3>Newsletter</h3>
-			<p>You can trust us. we only send promo offers.</p>
+			<p>Receive the most recent news and updates.</p>
 
 			<div class="subscribe">
 				<input type="email" placeholder="Your email Address">
@@ -151,14 +191,39 @@
 			</div>
 		</div>
 
+		<!-- Copyright -->
 		<div class="copyright">
 			<p>
-				Copyright @ 2022 All rights reserved | This template is made by <a href="https://atulcodex.com" target="_blank">atulcodex</a>
+				Copyright &copy; <script type="text/javascript">
+					document.write(new Date().getFullYear());
+				  </script> All rights reserved |  <a href="https://atulcodex.com" target="_blank">atulcodex</a>
 			</p>
 			<div class="pro-links">
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-linkedin-in"></i>
+
+				<!-- Facebook group -->
+				<a href="https://www.facebook.com/groups/way.university" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+
+				<!-- Instagram group -->
+				<a href="https://www.instagram.com/way.university?igsh=eGtqeGhnZXZycnFx" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+
+				<!-- Linkedin group -->
+				<a href="https://www.linkedin.com/groups/12887682/" target="_blank">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+
+				<!-- Telegram group -->
+				<a href="https://t.me/+vxV1Q12fmUYzNDIx" target="_blank">
+					<i class="fab fa-telegram"></i>
+				</a>
+
+				<!-- X (Former twitter) group -->
+				<a href="https://x.com/myWayUniversity" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
 			</div>
 		</div>
 	</footer>

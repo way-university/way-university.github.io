@@ -63,6 +63,14 @@
 	line-height: 45px;
 }
 
+#blog-container .cate a:hover
+{
+	text-decoration: none;
+	color: #FDC93B;
+	font-weight: 500;
+	line-height: 45px;
+}
+
 
 /*------------------------------------------------------*/
 /*------------------- For tablet screen ----------------*/

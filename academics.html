@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Academics | WAY.university</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="academics.css">
+	<link rel="stylesheet" href="blog.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<a href="index.html"><img src="img/logo.jpg" class="logo" alt="University logo"></a>
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="admissions.html">Admissions</a></li>
+				<li><a href="academics.html" class="active">Academics</a></li>
+				<li><a href="portal.html">Portal</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Academics.
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Blog container starts from here -->
+	<section id="blog-container">
+		<div class="blogs">
+			<div class="post">
+				<img src="img/news/class.jpg" alt="">
+				<h3>Multi-Dimensional Experience for every student</h3>
+				<p>
+					For both our undergraduate and graduate students, we believe in education that combines rigorous class work with the spirit of exploration. 
+					With hundreds of options for majors and concentrations to help you find your niche, 
+					you'll be able to create an academic path that fits your interests and advances your goals.
+				</p>
+			</div>
+			
+		</div>
+		<div class="cate">
+			<h2>Academic Resources</h2>
+			<hr>
+			<a href="undergrad.html">Undergraduate Programs</a>
+			<hr>
+			<a href="graduate.html">Graduate Programs</a>
+			<hr>
+			<a href="library.html">Library</a>
+			<hr>
+			<a href="https://lms.way.university">Outside the Classroom</a>
+			<hr>
+			<a href="credits.html">College credits</a>
+			<hr>
+			<a href="#">Schools & Colleges</a>
+			<hr>
+			<a href="#">Alumni</a>
+		</div>
+	</section>
+	<!-- Blog container ends from here -->
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Services</h3>
+			<a style="text-decoration:none" href="https://lms.way.university" target="_blank"><li>Moodle LMS</li></a>
+			<li>Koha</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Community</h3>
+			<a style="text-decoration:none" href="jobs.html" target="_blank"><li>Jobs</li></a>
+			<li>Volunteer</li>
+			<li>Sponsors</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Feedback</h3>
+			<a style="text-decoration:none" href="contact.html" target="_blank"><li>Contact</li></a>
+			<li>Social media</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Help</h3>
+			<li>IT Helpdesk</li>
+			<li>Tutorials</li>
+			<li>Directory</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Legal</h3>
+			<a style="text-decoration:none" href="WAY_honor_code_2023-2024.pdf" target="_blank"><li>Honor Code</li></a>
+			<a style="text-decoration:none" href="oeix_2023-2024.pdf" target="_blank"><li>OE & Title IX</li></a>
+		</div>
+
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<p>Receive the most recent news and updates.</p>
+
+			<div class="subscribe">
+				<input type="email" placeholder="Your email Address">
+				<a href="#" class="yellow">SUBSCRIBE</a>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div class="copyright">
+			<p>
+				Copyright &copy; <script type="text/javascript">
+					document.write(new Date().getFullYear());
+				  </script> All rights reserved |  <a href="https://atulcodex.com" target="_blank">atulcodex</a>
+			</p>
+			<div class="pro-links">
+
+				<!-- Facebook group -->
+				<a href="https://www.facebook.com/groups/way.university" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+
+				<!-- Instagram group -->
+				<a href="https://www.instagram.com/way.university?igsh=eGtqeGhnZXZycnFx" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+
+				<!-- Linkedin group -->
+				<a href="https://www.linkedin.com/groups/12887682/" target="_blank">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+
+				<!-- Telegram group -->
+				<a href="https://t.me/+vxV1Q12fmUYzNDIx" target="_blank">
+					<i class="fab fa-telegram"></i>
+				</a>
+
+				<!-- X (Former twitter) group -->
+				<a href="https://x.com/myWayUniversity" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

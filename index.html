@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Education Website Template</title>
+	<title>Home | WAY.university</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
 	<!-- font Awesome CDN link -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
@@ -14,19 +17,20 @@
 	<!-- JQuery CDN link -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="startTime()">
 	<!-- Navigation start -->
 	<nav>
-		<img src="img/logo.svg" class="logo" alt="">
+		<a href="index.html"><img src="img/logo.jpg" class="logo" alt="University logo"></a>
 
 		<div class="navigation">
 			<ul>
 				<i id="menu-close" class="fas fa-times"></i>
 				<li><a href="index.html" class="active">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="courses.html">Courses</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="admissions.html">Admissions</a></li>
+				<li><a href="academics.html">Academics</a></li>
+				<li><a href="portal.html">Portal</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="about.html">About</a></li>
 			</ul>
 
 			<img src="img/menu.png" id="menu-btn" alt="">
@@ -38,14 +42,14 @@
 	<!-- Hero section starts from here -->
 	<section id="home">
 		<h2>
-			Enhance Your Future With TechEduca
+			Enhance Your Future with WAY.
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ipsum laboriosam architecto tempora explicabo ratione pariatur accusantium consequatur sed odit?
+			we offer an online career training program that gives students the flexibility to study on the schedule that fits their lives.
 		</p>
 		<div class="btn">
-			<a href="#" class="blue">Learn More</a>
-			<a href="#" class="yellow">Visit Courses</a>
+			<a href="admissions.html" class="blue">Enroll Today</a>
+			<a href="https://lms.way.university" class="yellow">View Courses</a>
 		</div>
 	</section>
 	<!-- Hero section ends from here -->
@@ -53,31 +57,33 @@
 
 	<!-- Features section starts from here -->
 	<section id="features">
-		<h1>Awesome Features</h1>
-		<p>Replenish man have thing gathering lights yielding shall you</p>
+		<h1>Do it Your WAY</h1>
+		<p>flexible, convenient, comfortable and affordable </p>
 
 		<div class="fea-base">
 			<div class="fea-box">
 				<i class="fas fa-graduation-cap"></i>
-				<h3>Scholorship Facility</h3>
+				<h3>Scholorship Program</h3>
 				<p>
-					One make creepeth, man bearing theira firmament won't great heaven
+					Higher education could be expensive. 
+					Therefore, we are approaching all our students at the individual level to make college experience more accessible to everyone. 
 				</p>
 			</div>
 
 			<div class="fea-box">
 				<i class="fa-solid fa-book-bookmark"></i>
-				<h3>Dell Online Course</h3>
+				<h3>Right to dispute</h3>
 				<p>
-					One make creepeth, man bearing theira firmament won't great heaven
+					Our students have a right to file for a grade dispute, before the deadline.
 				</p>
 			</div>
 
 			<div class="fea-box">
 				<i class="fas fa-award"></i>
-				<h3>Global Certification</h3>
+				<h3>Beyond knowledge</h3>
 				<p>
-					One make creepeth, man bearing theira firmament won't great heaven
+					Quality education and its virtues are at the core of our institution. However, we provide more than just education. 
+					Here at WAY, we seek to contribute a unique college experience that your alumni will carry out with them long into the future.
 				</p>
 			</div>
 		</div>
@@ -87,15 +93,15 @@
 
 	<!-- Courses section starts from here -->
 	<section id="course">
-		<h1>Our Popular Courses</h1>
-		<p>Replenish man have thing gathering lights yielding shall you</p>
+		<h1>Our Popular Cources</h1>
+		<p> ___</p>
 
 		<div class="course-box">
 			<div class="courses">
 				<img src="img/c1.jpg" alt="">
 				<div class="details">
 					<span>Updated 21/8/22</span>
-					<h6>JavaScript Beginners Course</h6>
+					<h6>Web Basics and Design</h6>
 
 					<div class="star">
 						<i class="fa-solid fa-star"></i>
@@ -104,17 +110,17 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 
-						<span>(239)</span>
+						<span>(342)</span>
 					</div>
 				</div>
-				<div class="cost">$49.99</div>
+				<div class="cost">$129.99</div>
 			</div>
 
 			<div class="courses">
 				<img src="img/c2.jpg" alt="">
 				<div class="details">
 					<span>Updated 21/8/22</span>
-					<h6>JavaScript Beginners Course</h6>
+					<h6>Technology Innovation Managment</h6>
 
 					<div class="star">
 						<i class="fa-solid fa-star"></i>
@@ -123,17 +129,17 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 
-						<span>(239)</span>
+						<span>(112)</span>
 					</div>
 				</div>
-				<div class="cost">$49.99</div>
+				<div class="cost">$116.99</div>
 			</div>
 
 			<div class="courses">
 				<img src="img/c3.jpg" alt="">
 				<div class="details">
 					<span>Updated 21/8/22</span>
-					<h6>JavaScript Beginners Course</h6>
+					<h6>Python Fundumentals</h6>
 
 					<div class="star">
 						<i class="fa-solid fa-star"></i>
@@ -142,17 +148,17 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 
-						<span>(239)</span>
+						<span>(89)</span>
 					</div>
 				</div>
-				<div class="cost">$49.99</div>
+				<div class="cost">$112.99</div>
 			</div>
 
 			<div class="courses">
 				<img src="img/c4.jpg" alt="">
 				<div class="details">
 					<span>Updated 21/8/22</span>
-					<h6>JavaScript Beginners Course</h6>
+					<h6>Database Fundumentals</h6>
 
 					<div class="star">
 						<i class="fa-solid fa-star"></i>
@@ -161,17 +167,17 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 
-						<span>(239)</span>
+						<span>(144)</span>
 					</div>
 				</div>
-				<div class="cost">$49.99</div>
+				<div class="cost">$110.99</div>
 			</div>
 
 			<div class="courses">
 				<img src="img/c5.jpg" alt="">
 				<div class="details">
 					<span>Updated 21/8/22</span>
-					<h6>JavaScript Beginners Course</h6>
+					<h6>Network and Internet Fundumentals</h6>
 
 					<div class="star">
 						<i class="fa-solid fa-star"></i>
@@ -180,17 +186,17 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 
-						<span>(239)</span>
+						<span>(237)</span>
 					</div>
 				</div>
-				<div class="cost">$49.99</div>
+				<div class="cost">$121.99</div>
 			</div>
 
 			<div class="courses">
 				<img src="img/c6.jpg" alt="">
 				<div class="details">
 					<span>Updated 21/8/22</span>
-					<h6>JavaScript Beginners Course</h6>
+					<h6>ICT Technical Foundations</h6>
 
 					<div class="star">
 						<i class="fa-solid fa-star"></i>
@@ -199,10 +205,10 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 
-						<span>(239)</span>
+						<span>(402)</span>
 					</div>
 				</div>
-				<div class="cost">$49.99</div>
+				<div class="cost">$108.99</div>
 			</div>
 		</div>
 	</section>
@@ -212,55 +218,92 @@
 	<!-- Registration section starts from here -->
 	<section id="registration">
 		<div class="reminder">
-			<p>Get 100 Online Courses for Free</p>
-			<h1>Registration To Get It</h1>
+			<p>Begin investing into your future</p>
+			<h1>Register now</h1>
 
 			<div class="time">
-				<div class="date">18 <br> Days</div>
-				<div class="date">23 <br> Hours</div>
-				<div class="date">06 <br> Minutes</div>
-				<div class="date">58 <br> Seconds</div>
+				<div class="date"><h2 id="time"></h2></div>
+
+				<script>
+					function startTime() {
+					  const today = new Date();
+					  let h = today.getHours();
+					  let m = today.getMinutes();
+					  let s = today.getSeconds();
+					  m = checkTime(m);
+					  s = checkTime(s);
+					  document.getElementById('time').innerHTML =  h + ":" + m + ":" + s;
+					  setTimeout(startTime, 1000);
+					}
+					
+					function checkTime(i) {
+					  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+					  return i;
+					}
+					</script>
 			</div>
 		</div>
 
-		<div class="form">
-			<h3>Create Free Account NOW!</h3>
-
-			<input type="text" placeholder="Name" name="" id="">
-			<input type="email" placeholder="Email ID" name="" id="">
-			<input type="text" placeholder="Contact Number" name="" id="">
-
-			<div class="btn">
-				<a href="#" class="yellow">Submit Form</a>
-			</div>
+		<div class="form" id="form-wrap">
+			<h3>Start Enrolling today!</h3>
+				<form action="mailto:submit@way.university" method="post" enctype="text/plain" id="">
+					<div>
+						<input name="submit@way.university" type="hidden" class="text" name="submit@way.university">
+						<input type="text" placeholder="Name" name="Name" id="name" required>
+					</div>
+					<div>
+					<input type="email" placeholder="Email" name="email" id="email" required>
+					</div>
+					<div>
+					<input type="tel" placeholder="Contact Number" name="Contact number" id="phone number" required>
+					</div>
+					<div class="btn">
+						<input type="submit" value="Submit Form" class="yellow" id="submit">
+					</div>
+				</form>
 		</div>
 	</section>
+
+	<style>
+		div.form {
+		  background-color:#fff;
+		  padding: 20px;
+		}
+		
+		@media screen and (max-width: 900px) {
+		  div.form {
+			display: none !important;
+		  }
+		}
+		</style>
+
 	<!-- Registration section ends from here -->
 
 
 	<!-- Experts section starts from here -->
 	<section id="experts">
-		<h1>Community Experts</h1>
-		<p>Replenish man have thing gathering lights yielding shall you</p>
+		<h1>Community Staff</h1>
+		<p>“Investing in the inner man will profit you more than investing in the outer man.”</p>
+			<p>― Matshona Dhliwayo</p>
 		<div class="expert-box">
 			<div class="profile">
 				<img src="img/pro1.webp" alt="">
 				<h6>Ema Ernik</h6>
 				<p>Python & Algorithms Expert</p>
 				<div class="pro-links">
-					<i class="fab fa-facebook"></i>
-					<i class="fab fa-instagram"></i>
+					<i class="fas fa-envelope"></i>
+					<i class="fab fa-telegram"></i>
 					<i class="fab fa-linkedin-in"></i>
 				</div>
 			</div>
 
 			<div class="profile">
 				<img src="img/pro2.webp" alt="">
-				<h6>Jason chua</h6>
+				<h6>Jason Chua</h6>
 				<p>Data Design Expert</p>
 				<div class="pro-links">
-					<i class="fab fa-facebook"></i>
-					<i class="fab fa-instagram"></i>
+					<i class="fas fa-envelope"></i>
+					<i class="fab fa-telegram"></i>
 					<i class="fab fa-linkedin-in"></i>
 				</div>
 			</div>
@@ -270,8 +313,8 @@
 				<h6>Maalik Halper</h6>
 				<p>Full Stack Developer</p>
 				<div class="pro-links">
-					<i class="fab fa-facebook"></i>
-					<i class="fab fa-instagram"></i>
+					<i class="fas fa-envelope"></i>
+					<i class="fab fa-telegram"></i>
 					<i class="fab fa-linkedin-in"></i>
 				</div>
 			</div>
@@ -281,8 +324,8 @@
 				<h6>Jennifer Lopez</h6>
 				<p>Design Expert</p>
 				<div class="pro-links">
-					<i class="fab fa-facebook"></i>
-					<i class="fab fa-instagram"></i>
+					<i class="fas fa-envelope"></i>
+					<i class="fab fa-telegram"></i>
 					<i class="fab fa-linkedin-in"></i>
 				</div>
 			</div>
@@ -293,40 +336,40 @@
 	<!-- Footer section starts from here -->
 	<footer>
 		<div class="footer-col">
-			<h3>Top Products</h3>
-			<li>Manage Reputation</li>
-			<li>Power Tools</li>
-			<li>Managed Website</li>
-			<li>Marketing Service</li>
+			<h3>Services</h3>
+			<a style="text-decoration:none" href="https://lms.way.university" target="_blank"><li>Moodle LMS</li></a>
+			<li>Koha</li>
 		</div>
 
 		<div class="footer-col">
-			<h3>Power Tools</h3>
-			<li>Jobs</li>
-			<li>Marketing Service</li>
-			<li>Top Products</li>
-			<li>Manage Reputation</li>
+			<h3>Community</h3>
+			<a style="text-decoration:none" href="jobs.html" target="_blank"><li>Jobs</li></a>
+			<li>Volunteer</li>
+			<li>Sponsors</li>
 		</div>
 
 		<div class="footer-col">
-			<h3>Power Tools</h3>
-			<li>Managed Website</li>
-			<li>Manage Reputation</li>
-			<li>Top Products</li>
-			<li>Marketing Service</li>
+			<h3>Feedback</h3>
+			<a style="text-decoration:none" href="contact.html" target="_blank"><li>Contact</li></a>
+			<li>Social media</li>
 		</div>
 
 		<div class="footer-col">
-			<h3>Guides</h3>
-			<li>Research</li>
-			<li>Experts</li>
-			<li>Managed Website</li>
-			<li>Marketing Service</li>
+			<h3>Help</h3>
+			<li>IT Helpdesk</li>
+			<li>Tutorials</li>
+			<li>Directory</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Legal</h3>
+			<a style="text-decoration:none" href="WAY_honor_code_2023-2024.pdf" target="_blank"><li>Honor Code</li></a>
+			<a style="text-decoration:none" href="oeix_2023-2024.pdf" target="_blank"><li>OE & Title IX</li></a>
 		</div>
 
 		<div class="footer-col">
 			<h3>Newsletter</h3>
-			<p>You can trust us. we only send promo offers.</p>
+			<p>Receive the most recent news and updates.</p>
 
 			<div class="subscribe">
 				<input type="email" placeholder="Your email Address">
@@ -334,16 +377,68 @@
 			</div>
 		</div>
 
+		<!-- Copyright -->
 		<div class="copyright">
 			<p>
-				Copyright @ 2022 All rights reserved | This template is made by <a href="https://atulcodex.com" target="_blank">atulcodex</a>
+				Copyright &copy; <script type="text/javascript">
+					document.write(new Date().getFullYear());
+				  </script> All rights reserved |  <a href="https://atulcodex.com" target="_blank">atulcodex</a>
 			</p>
 			<div class="pro-links">
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-linkedin-in"></i>
+
+				<!-- Facebook group -->
+				<a href="https://www.facebook.com/groups/way.university" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+
+				<!-- Instagram group -->
+				<a href="https://www.instagram.com/way.university?igsh=eGtqeGhnZXZycnFx" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+
+				<!-- Linkedin group -->
+				<a href="https://www.linkedin.com/groups/12887682/" target="_blank">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+
+				<!-- Telegram group -->
+				<a href="https://t.me/+vxV1Q12fmUYzNDIx" target="_blank">
+					<i class="fab fa-telegram"></i>
+				</a>
+
+				<!-- X (Former twitter) group -->
+				<a href="https://x.com/myWayUniversity" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
 			</div>
 		</div>
+
+		<!-- Quantcast Tag -->
+<script type="text/javascript">
+	window._qevents = window._qevents || [];
+	
+	(function() {
+	var elem = document.createElement('script');
+	elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+	elem.async = true;
+	elem.type = "text/javascript";
+	var scpt = document.getElementsByTagName('script')[0];
+	scpt.parentNode.insertBefore(elem, scpt);
+	})();
+	
+	window._qevents.push({
+	qacct:"empty",
+	uid:"my.way.university@gmail.com"
+	});
+	</script>
+	
+	<noscript>
+	<div style="display:none;">
+	<img src="//pixel.quantserve.com/pixel/p-Kcwc2sJx4yzqJ.gif" border="0" height="1" width="1" alt="Quantcast"/>
+	</div>
+	</noscript>
+	<!-- End Quantcast tag -->
+
 	</footer>
 	<!-- Footer section ends from here -->
 
